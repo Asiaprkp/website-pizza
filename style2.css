@@ -1,0 +1,158 @@
+/*початок*/
+
+
+body {
+    background-image: url('your-background-image.jpg');
+    /* Змініть на вашу картинку фону */
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    /* Allow scrolling */
+    color: #EB5B38;
+    /* Changed text color to orange */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #EB5B38;
+    /* Changed header text color to orange */
+}
+
+.menu-categories {
+    display: flex;
+    /* Використання flexbox для горизонтального розташування */
+    justify-content: center;
+    /* Вирівнювання по центру */
+    margin: 20px 0;
+    /* Відступи */
+}
+
+.category {
+    margin: 10px;
+    /* Відступи між категоріями */
+    text-align: center;
+    /* Центрування тексту */
+}
+
+.category-img {
+    width: 172px;
+    /* Встановлення ширини зображення */
+    height: auto;
+    /* Автоматична висота для збереження пропорцій */
+}
+
+/* Основний стиль */
+body {
+    font-family: 'Protest Strike',
+        cursive;
+    background-image: url('background.jpg');
+    /* Додайте свій фон */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #EB5B38;
+    /* Changed body text color to orange */
+    text-align: center;
+}
+
+header {
+    background-color: #272A2D;
+    /* Changed to dark background */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EB5B38;
+    /* Changed link color to orange */
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+    color: #EB5B38;
+    /* Changed heading color to orange */
+}
+
+h2 {
+    color: #EB5B38;
+    /* Changed subheading color to orange */
+}
+
+/* Стилізація для меню */
+.menu-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    /* Дозволяє переносити елементи на новий рядок при зменшенні екрану */
+}
+
+.category {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.category a {
+    text-decoration: none;
+    color: #EB5B38;
+    /* Changed category link color to orange */
+    font-weight: bold;
+}
+
+.category a:hover {
+    color: #FFA500;
+    /* Changed hover color to orange */
+}
+
+.category-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin-top: 10px;
+    color: #EB5B38;
+    /* Changed category headings color to orange */
+}
+
+footer {
+    background-color: #1E2022;
+    /* Keep the dark footer background */
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #d6c6c2;
+    /* Changed footer text color to orange */
+    
+}
+
+footer {
+    background-color: #1E2022;
+    /* Темний фон для футера */
+    padding: 10px;
+    /* Прибери position: fixed, щоб футер не перекривав контент */
+    position: relative;
+    /* Можна також використовувати static */
+    width: 100%;
+    bottom: 0;
+    /* Не потрібно, якщо використовується relative */
+    color: #d6c6c2;
+    /* Колір тексту футера */
+}
